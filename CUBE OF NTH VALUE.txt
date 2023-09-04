@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int i,n;
+	printf("enter nth value");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	printf("%d",cube(i));
+	printf("\n");
+}
+int cube(int y)
+	{
+		return y*y*y;
+	}

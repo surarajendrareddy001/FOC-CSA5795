@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int i,n;
+	printf("enter nth value");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	printf("%d",square(i));
+	printf("\n");
+}
+int square(int y)
+	{
+		return y*y;
+	}
